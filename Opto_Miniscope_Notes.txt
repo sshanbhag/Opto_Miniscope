@@ -1,0 +1,21 @@
+Opto_Miniscope_Notes
+
+19 Sep 2023:
+
+Triggering signal for Chromatone (20 Hz):
+- logging?
+- which device - maybe RZ5D is easier since it has digital out connectors.
+   also won't add to RZ6 load.
+
+original circuits used:
+
+Path: C:\TytoLogy\Toolboxes\TDTToolbox\Circuits\RZ5D
+Circuit: RZ5D_50k_16In_1Out_FindSpike_zBus.rcx
+
+Path: C:\TytoLogy\Toolboxes\TDTToolbox\Circuits\RZ6
+Circuit: RZ6_2ChannelOutputAtten_zBus.rcx
+
+Issue: OptoGo TTL is assigned to dig out 4 (M=16)
+
+can just use this instead.  
+
